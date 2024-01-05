@@ -1,2 +1,6 @@
 def count_sheep(sheep):
-    pass
+    count = 0
+    for el in sheep:
+        if el == True:
+            count += 1
+    return count

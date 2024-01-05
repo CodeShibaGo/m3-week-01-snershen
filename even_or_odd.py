@@ -1,2 +1,2 @@
 def even_or_odd(number):
-    pass
+    return "Even" if number % 2 == 0 else "Odd"
