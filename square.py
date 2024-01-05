@@ -1,2 +1,8 @@
+import math
 def is_square(n):
-    pass
+    result = math.sqrt(n)
+    if result == int(result):
+        return True
+    else:
+        return False
+
